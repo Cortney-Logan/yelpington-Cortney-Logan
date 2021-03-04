@@ -1,0 +1,20 @@
+{
+    "id": "rising-tide",
+    "name": "Rising Tide",
+    "address": "103 Fox St, Portland, ME 04101",
+    "lat": 43.665513,
+    "long": -70.2572199,
+    "phone number": "(207) 370-2337",
+    "hours": "12-8PM",
+    "notes": [
+        "comment1",
+        "comment2"
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Stout"
+    ],
+    "food": true,
+    "dog friendly": true
+}

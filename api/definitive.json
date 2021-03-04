@@ -1,0 +1,20 @@
+{
+    "id": "definitive",
+    "name": "Definitive Brewing Company",
+    "address": "35 Industrial Way, Portland, ME 04103",
+    "lat": 43.7026311,
+    "long": -70.3191016,
+    "phone number": "(207) 536-1288",
+    "hours": "12-7PM",
+    "notes": [
+        "comment1",
+        "comment2"
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Stout"
+    ],
+    "food": true,
+    "dog friendly": true
+}
