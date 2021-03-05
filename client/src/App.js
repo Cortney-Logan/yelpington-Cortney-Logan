@@ -1,5 +1,4 @@
-import { Route, Switch, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
 import Home from "./components/Home.js";
 import Header from "./components/Header.js";
 import Brewery from "./components/Brewery.js"

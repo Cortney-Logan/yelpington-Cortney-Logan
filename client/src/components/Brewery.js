@@ -46,7 +46,7 @@ function Brewery(props) {
         <h1>{name}</h1>
       </a>
       <div id="information-container">
-        <div id="map-container">
+        <div id="brewery-map-container">
           <MapContainer
             center={center}
             zoom={15}
@@ -65,7 +65,7 @@ function Brewery(props) {
         <div id="location-and-hours-container">
           <div>
             <h3>Hours:</h3>
-            <ul>
+            <ul id="hours">
               {days.map((day) => {
                 return (
                   <li>
@@ -77,21 +77,26 @@ function Brewery(props) {
           </div>
           <div>
             <h3>Location:</h3>
+
             <p>{address}</p>
-            <a href={`tel:${phone}`}>
-              <p>{phone}</p>
-            </a>
+            <p>{phone}</p>
           </div>
         </div>
       </div>
       <div id="additional-information">
-        <p><b>Food:</b> {food ? "Yes" : "No"}</p>
-        <p><b>Dog Friendly:</b> {dogFriendly ? "Yes" : "No"}</p>
-        <p><b>Beers:</b> {beer && beer.map(item => <span>{item}  </span>)}</p>
+        <p>
+          <b>Food:</b> {food ? "Yes" : "No"}
+        </p>
+        <p>
+          <b>Dog Friendly:</b> {dogFriendly ? "Yes" : "No"}
+        </p>
+        <p>
+          <b>Beers:</b> {beer && beer.map((item) => <span>{item} </span>)}
+        </p>
       </div>
       <div id="comments-container">
         <h3>Comments:</h3>
-        {comments && comments.map(comment => <p>"{comment}"</p>)}
+        {comments && comments.map((comment) => <p>"{comment}"</p>)}
       </div>
     </div>
   );

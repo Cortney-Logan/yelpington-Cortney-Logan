@@ -5,17 +5,37 @@ Forest #1E434C
 Rust #9B4F0F
 Gold #C99E10 */
 
-/* Header */
+/*-------------------- Header --------------------*/
+/* #header-container{
+height: 15vh;
+} */
+
 #header {
   text-align: center;
   font-family: "Fredoka One", cursive;
   background-color: #8d230f;
   color: white;
   padding: 20px;
+  height: 12vh;
 }
 
 #header-logo {
   height: 4vh;
+}
+
+#header a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#header a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#header a:link {
+  text-decoration: none;
+  color: white;
 }
 
 header h1 {
@@ -27,7 +47,7 @@ header p {
   font-size: 0.75rem;
 }
 
-/* Home Page */
+/*-------------------- Home Page --------------------*/
 #home-page-container {
   position: relative;
   display: flex;
@@ -35,30 +55,49 @@ header p {
   height: 80vh;
 }
 
-#map-container {
+#homepage-map-container {
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: center;
+  border: 5px solid #c99e10;
 }
 
 #nav-bar {
+  background-color: #1e434c;
   position: absolute;
   left: 0;
   align-self: flex-start;
-  height: auto;
   padding: 10px;
+  height: 80vh;
 }
 
-ul {
-  /* height: calc(80vh - 32px); */
+#nav-bar ul {
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: calc(80vh - 42px);
 }
 
-/* Brewery Page */
+#nav-bar ul h4 {
+  margin: 0;
+}
+
+#nav-bar a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-bar a:visited {
+  color: white;
+}
+
+#nav-bar a:hover {
+  color: #c99e10;
+}
+
+/*-------------------- Brewery Page --------------------*/
 #brewery-container {
   width: 40vw;
   margin: 0 30vw;
@@ -66,37 +105,78 @@ ul {
   flex-direction: column;
 }
 
-#information-container{
+#brewery-container a:link{
+  text-decoration: none;
+  color: #1e434c;
+}
+
+#brewery-container a:visited {
+  color: #1e434c;
+}
+
+#brewery-container a:hover {
+  color: #c99e10;
+}
+
+#brewery-container h3{
+  color: #1e434c;
+  margin: 5px 0;
+}
+
+#brewery-map-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border: 5px solid #c99e10;
+}
+
+#information-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#location-and-hours-container{
+#location-and-hours-container {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
-#additional-information{
+#hours{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+#additional-information {
   margin: 10px 0;
 }
 
-#additional-information p{
+#additional-information p {
   padding: 0;
   margin: 0;
 }
 
-/* Footer */
+/*-------------------- Footer --------------------*/
 #footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
+  height: 5vh;
   text-align: right;
   background-color: #8d230f;
   color: white;
-  /* height: 3rem; */
+}
+
+#footer a:link{
+  color: white;
+}
+
+#footer a:visited{
+  color: white;
 }
 
 #footer p {

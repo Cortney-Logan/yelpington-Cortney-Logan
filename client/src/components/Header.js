@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 
 function Header(props) {
   return (
-    <div>
-      <Link to={'/'}>
+    <div id="header-container">
+
         <header id="header">
-          <h1>
-            <img id="header-logo" src={logo} />
+                <Link to={'/'}><h1>
+            <img id="header-logo" src={logo} alt="map marker with star" />
             yelpington
           </h1>
-          <p>Portland Beer Edition</p>
+          <p>Greater-Portland Beer Edition</p>      </Link>
         </header>
-      </Link>
+
     </div>
   );
 }
