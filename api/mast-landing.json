@@ -1,0 +1,20 @@
+{
+    "id": "mast-landing",
+    "name": "Mast Landing Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Their IPAs are really good!",
+        "Mast Landing needs a flagship beer to draw attention of visitors, otherwise there's nothing making them stand out."
+    ],
+    "beers": [
+        "IPA",
+        "Stout",
+        "Lagers"
+    ],
+    "food": true,
+    "dog friendly": false
+}

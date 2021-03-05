@@ -1,13 +1,23 @@
-#header{
+/* Header */
+#header {
   text-align: center;
 }
 
-#home-page-container{
-  display:flex;
+/* Home Page */
+#home-page-container {
+  display: flex;
 }
 
-#map-container{
-  display:flex;
+#map-container {
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Brewery Page */
+#brewery-container {
+  width: 60vw;
+  margin: 0 20vw;
+  display: flex;
+  flex-direction: column;
 }

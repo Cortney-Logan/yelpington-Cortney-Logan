@@ -1,0 +1,23 @@
+{
+    "id": "bissel-brothers",
+    "name": "Flight Deck Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Absolutely amazing beers and great environment!",
+        "Love the flight theme!",
+        "Very geared towards beer drinkers"
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Lagers",
+        "Amber",
+        "Stout"
+    ],
+    "food": false,
+    "dog friendly": false
+}

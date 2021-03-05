@@ -1,0 +1,19 @@
+{
+    "id": "austin-street",
+    "name": "Austin Street Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Very clean environment but the beer tries to be to main stream.  They have one really good beer but the rest are mehhhh.",
+        "Their sours are AMAZING!"
+    ],
+    "beers": [
+        "IPA",
+        "Sour"
+    ],
+    "food": false,
+    "dog friendly": true
+}

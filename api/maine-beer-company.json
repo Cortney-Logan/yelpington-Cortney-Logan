@@ -1,0 +1,19 @@
+{
+    "id": "maine-beer-company",
+    "name": "Maine Beer Company",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Beer is incredible",
+        "You HAVE to have lunch, you'll never taste a beer like it!",
+        "Very unique tasting room....I feel sorta underdressed. But the beer and food are amazing!"
+    ],
+    "beers": [
+        "IPA"
+    ],
+    "food": true,
+    "dog friendly": false
+}

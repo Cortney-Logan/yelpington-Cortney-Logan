@@ -1,0 +1,22 @@
+{
+    "id": "shipyard",
+    "name": "Shipyard Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Very mainstream, definitely geared towards tourists",
+        "TONS of beer options, they have everything."
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Lagers",
+        "Amber",
+        "Stout"
+    ],
+    "food": false,
+    "dog friendly": false
+}

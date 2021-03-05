@@ -1,0 +1,20 @@
+{
+    "id": "lone-pine",
+    "name": "Lone Pine Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "All their beers taste the same",
+        "Super cute tasting room, and great location!"
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Lagers"
+    ],
+    "food": false,
+    "dog friendly": true
+}

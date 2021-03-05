@@ -1,0 +1,22 @@
+{
+    "id": "bissel-brothers",
+    "name": "Bunker Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Their toilettes are very clean :)",
+        "Grungy and awesome!",
+        "Beer was ok but the atmosphere was super cool",
+        "Dope-a$$ beer labels"
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Lagers"
+    ],
+    "food": false,
+    "dog friendly": false
+}

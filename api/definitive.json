@@ -7,14 +7,13 @@
     "phone number": "(207) 536-1288",
     "hours": "12-7PM",
     "notes": [
-        "comment1",
-        "comment2"
+        "More of a grungy scene, lots of seating options and fun atmosphere.",
+        "Very few new releases, but the beers they have are consistent and always good."
     ],
     "beers": [
         "IPA",
-        "Sour",
-        "Stout"
+        "Sour"
     ],
-    "food": true,
+    "food": false,
     "dog friendly": true
 }

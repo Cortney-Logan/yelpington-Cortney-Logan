@@ -1,0 +1,18 @@
+{
+    "id": "oxbow",
+    "name": "Oxbow Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Sort of pretentious"
+    ],
+    "beers": [
+        "Farmhouse Ale",
+        "Sour"
+    ],
+    "food": false,
+    "dog friendly": false
+}

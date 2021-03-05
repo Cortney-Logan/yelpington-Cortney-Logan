@@ -1,0 +1,21 @@
+{
+    "id": "urban-farm-fermentory",
+    "name": "Urban Farm Fermentory",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "I don't even really know what kombucha is but it's really good here!",
+        "Tasting room is dope!"
+    ],
+    "beers": [
+        "Ciders",
+        "Kombucha",
+        "Sours",
+        "IPA"
+    ],
+    "food": false,
+    "dog friendly": true
+}

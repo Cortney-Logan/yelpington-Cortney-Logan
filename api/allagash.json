@@ -1,0 +1,20 @@
+{
+    "id": "allagash",
+    "name": "Allagash Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "I love Allagash Wite!",
+        "Too mainstream. They're definitely a national beer distributor rather than catering to the local scene."
+    ],
+    "beers": [
+        "Wheat",
+        "Sour",
+        "Lagers"
+    ],
+    "food": false,
+    "dog friendly": true
+}

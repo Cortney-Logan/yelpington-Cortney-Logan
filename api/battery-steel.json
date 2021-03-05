@@ -1,0 +1,18 @@
+{
+    "id": "battery-steel",
+    "name": "Battery Steel Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "They don't change out their beers very often, it would be nice to have some different beers to try sometimes.",
+        "All of their beers are high percentage."
+    ],
+    "beers": [
+        "IPA"
+    ],
+    "food": false,
+    "dog friendly": true
+}

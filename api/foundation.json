@@ -1,0 +1,21 @@
+{
+    "id": "Allagash",
+    "name": "Allagash Brewery",
+    "address": "XXX",
+    "lat": 4,
+    "long": 7,
+    "phone number": "xxxx",
+    "hours": "xxxx",
+    "notes": [
+        "Their new IPAs are so good",
+        "Most of their beers are mediocre.",
+        ""
+    ],
+    "beers": [
+        "IPA",
+        "Sour",
+        "Lagers"
+    ],
+    "food": false,
+    "dog friendly": true
+}
