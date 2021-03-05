@@ -16,15 +16,26 @@ function Home(props) {
     }
   });
 
+  function capitalize(str){
+    let strArray=str.split(' ');
+    let i=0;
+    while(i<strArray.length){
+      strArray[i]=strArray[i][0].toUpperCase()+strArray[i].slice(1).toLowerCase()
+      i++;
+    }
+    console.log(strArray)
+    return strArray.join(' ');
+  }
+
   return (
     <div id="home-page-container">
-      <nav>
+      <nav id="nav-bar">
         <ul>
           {breweries.map((brewery, index) => {
             return (
               <h4 key={index}>
                 <Link to={`/brewery/${brewery}`}>
-                  {brewery.replaceAll("-", " ")}
+                  {capitalize(brewery.replaceAll("-", " "))}
                 </Link>
               </h4>
             );
@@ -47,3 +58,5 @@ function Home(props) {
   );
 }
 export default Home;
+
+{/* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
