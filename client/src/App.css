@@ -60,10 +60,32 @@ ul {
 
 /* Brewery Page */
 #brewery-container {
-  width: 60vw;
-  margin: 0 20vw;
+  width: 40vw;
+  margin: 0 30vw;
   display: flex;
   flex-direction: column;
+}
+
+#information-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#location-and-hours-container{
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+
+#additional-information{
+  margin: 10px 0;
+}
+
+#additional-information p{
+  padding: 0;
+  margin: 0;
 }
 
 /* Footer */

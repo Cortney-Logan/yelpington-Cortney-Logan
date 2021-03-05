@@ -5,7 +5,7 @@
     "website": "https://www.definitivebrewing.com/",
     "lat": 43.7026311,
     "long": -70.3191016,
-    "phone number": "(207) 536-1288",
+    "phone": "(207) 536-1288",
     "hours": {
         "Sunday": "12-6PM",
         "Monday": "12-7PM",
@@ -15,7 +15,7 @@
         "Friday": "12-8PM",
         "Saturday": "11AM-8PM"
     },
-    "notes": [
+    "comments": [
         "Lots of seating options and fun atmosphere.",
         "Very few new releases, but the beers they have are consistent and always good."
     ],
@@ -24,5 +24,5 @@
         "Sour"
     ],
     "food": false,
-    "dog friendly": true
+    "dogFriendly": true
 }

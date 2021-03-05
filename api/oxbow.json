@@ -5,7 +5,7 @@
     "website": "https://oxbowbeer.com/location/portland/",
     "lat": 43.664967,
     "long": -70.251183,
-    "phone number": "(207) 350-0025",
+    "phone": "(207) 350-0025",
     "hours": {
         "Sunday": "12-9PM",
         "Monday": "12-9PM",
@@ -15,7 +15,7 @@
         "Friday": "1-8PM",
         "Saturday": "1-8PM"
     },
-    "notes": [
+    "comments": [
         "Sort of pretentious.",
         "Really unique vibes and interesting beers!"
     ],
@@ -24,5 +24,5 @@
         "Sour"
     ],
     "food": false,
-    "dog friendly": false
+    "dogFriendly": false
 }

@@ -5,7 +5,7 @@
     "website": "https://risingtidebrewing.com/",
     "lat": 43.665513,
     "long": -70.2572199,
-    "phone number": "(207) 370-2337",
+    "phone": "(207) 370-2337",
     "hours": {
         "Sunday": "12-5PM",
         "Monday": "Closed",
@@ -15,7 +15,7 @@
         "Friday": "Closed",
         "Saturday": "12-8PM"
     },
-    "notes": [
+    "comments": [
         "Best beer in Portland.",
         "Every new beer is a good beer.",
         "Great atmosphere, they keep the micobrewery dream alive.",
@@ -29,5 +29,5 @@
         "Hefeweizen"
     ],
     "food": true,
-    "dog friendly": true
+    "dogFriendly": true
 }

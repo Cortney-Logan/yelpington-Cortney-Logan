@@ -5,7 +5,7 @@
     "website": "https://bissellbrothers.com/",
     "lat": 43.6515,
     "long": -70.2905,
-    "phone number": "(207) 808-8258",
+    "phone": "(207) 808-8258",
     "hours": {
         "Sunday": "11AM-5PM",
         "Monday": "11AM-7PM",
@@ -15,7 +15,7 @@
         "Friday": "11AM-7PM",
         "Saturday": "11AM-7PM"
     },
-    "notes": [
+    "comments": [
         "Bissel Brothers is the best beer in Maine!",
         "Overhyped - they're trying too hard to be Tree House while their beer needs a lot more work.",
         "Substance is literally the best thing I've ever had!"
@@ -25,5 +25,5 @@
         "Lagers"
     ],
     "food": false,
-    "dog friendly": false
+    "dogFriendly": false
 }

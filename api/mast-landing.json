@@ -5,7 +5,7 @@
     "website": "https://mastlandingbrewing.com/",
     "lat": 43.67648235,
     "long": -70.36957983590818,
-    "phone number": "(207) 887-9147",
+    "phone": "(207) 887-9147",
     "hours": {
         "Sunday": "12-6PM",
         "Monday": "12-7PM",
@@ -15,7 +15,7 @@
         "Friday": "12-8PM",
         "Saturday": "12-8PM"
     },
-    "notes": [
+    "comments": [
         "Their IPAs are really good!",
         "Mast Landing needs a flagship beer to draw attention of visitors, otherwise there's nothing making them stand out.",
         "Cool atmosphere and the beers are great!"
@@ -26,5 +26,5 @@
         "Lagers"
     ],
     "food": true,
-    "dog friendly": false
+    "dogFriendly": false
 }

@@ -5,7 +5,7 @@
     "website": "https://shipyard.com/",
     "lat": 43.661585099999996,
     "long": -70.24862313941333,
-    "phone number": "(800) 273-9253",
+    "phone": "(800) 273-9253",
     "hours": {
         "Sunday": "11AM-5PM",
         "Monday": "Closed",
@@ -15,7 +15,7 @@
         "Friday": "11AM-8PM",
         "Saturday": "11AM-8PM"
     },
-    "notes": [
+    "comments": [
         "Very mainstream, definitely geared towards tourists",
         "TONS of beer options, they have everything!"
     ],
@@ -27,5 +27,5 @@
         "Stout"
     ],
     "food": false,
-    "dog friendly": false
+    "dogFriendly": false
 }

@@ -5,7 +5,7 @@
     "website": "http://bunkerbrewingco.com/",
     "lat": 	43.6525826,
     "long": -70.2838257,
-    "phone number": "(207) 613-9471",
+    "phone": "(207) 613-9471",
     "hours": {
         "Sunday": "12-6PM",
         "Monday": "Closed",
@@ -15,7 +15,7 @@
         "Friday": "12-6PM",
         "Saturday": "12AM-6PM"
     },
-    "notes": [
+    "comments": [
         "Their toilettes are very clean :)",
         "Grungy and awesome!",
         "Beer was ok but the atmosphere was super cool",
@@ -27,5 +27,5 @@
         "Lagers"
     ],
     "food": false,
-    "dog friendly": false
+    "dogFriendly": false
 }

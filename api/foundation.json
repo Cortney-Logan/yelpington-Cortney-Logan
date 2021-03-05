@@ -5,7 +5,7 @@
     "website": "https://foundationbrew.com/",
     "lat": 	43.7029012,
     "long": -70.3199941,
-    "phone number": "(207) 370-8187",
+    "phone": "(207) 370-8187",
     "hours": {
         "Sunday": "12-5PM",
         "Monday": "Closed",
@@ -15,7 +15,7 @@
         "Friday": "12-7PM",
         "Saturday": "12-7PM"
     },
-    "notes": [
+    "comments": [
         "Their new IPAs are so good!",
         "Cool outside area to hang out with your pets.",
         "Most of their beers are mediocre."
@@ -26,5 +26,5 @@
         "Lagers"
     ],
     "food": false,
-    "dog friendly": true
+    "dogFriendly": true
 }

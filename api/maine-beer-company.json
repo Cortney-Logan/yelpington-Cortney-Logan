@@ -5,7 +5,7 @@
     "website": "https://www.mainebeercompany.com/",
     "lat": 	43.83922605,
     "long": -70.12094746997406,
-    "phone number": "(207) 221-5711",
+    "phone": "(207) 221-5711",
     "hours": {
         "Sunday": "11AM-8PM",
         "Monday": "11AM-8PM",
@@ -15,7 +15,7 @@
         "Friday": "11AM-8PM",
         "Saturday": "11AM-8PM"
     },
-    "notes": [
+    "comments": [
         "Beer is incredible",
         "You HAVE to have lunch, you'll never taste a beer like it!",
         "Very unique tasting room....I feel sorta underdressed. But the beer and food are amazing!"
@@ -24,5 +24,5 @@
         "IPA"
     ],
     "food": true,
-    "dog friendly": false
+    "dogFriendly": false
 }

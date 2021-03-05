@@ -5,7 +5,7 @@
     "website": "https://www.austinstreetbrewery.com/",
     "lat": 43.6650441,
     "long": -70.2576206,
-    "phone number": "(207) 200-1994",
+    "phone": "(207) 200-1994",
     "hours": {
         "Sunday": "12-5PM",
         "Monday": "2-8PM",
@@ -15,7 +15,7 @@
         "Friday": "12-8PM",
         "Saturday": "12-8PM"
     },
-    "notes": [
+    "comments": [
         "Very clean environment but the beer tries to be to main stream.  They have one really good beer but the rest are mehhhh.",
         "Their sours are AMAZING!"
     ],
@@ -24,5 +24,5 @@
         "Sour"
     ],
     "food": false,
-    "dog friendly": true
+    "dogFriendly": true
 }

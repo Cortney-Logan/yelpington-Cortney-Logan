@@ -5,7 +5,7 @@
     "website": "https://www.fermentory.com/",
     "lat": 43.6692111,
     "long": -70.2561038,
-    "phone number": "(408) 404-3851",
+    "phone": "(408) 404-3851",
     "hours": {
         "Sunday": "11AM-6PM",
         "Monday": "12-6PM",
@@ -15,7 +15,7 @@
         "Friday": "11AM-6PM",
         "Saturday": "11AM-6PM"
     },
-    "notes": [
+    "comments": [
         "I don't even really know what kombucha is but it's really good here!",
         "Tasting room is dope!",
         "Love the vibe and the people who work here are great!"
@@ -27,5 +27,5 @@
         "IPA"
     ],
     "food": false,
-    "dog friendly": true
+    "dogFriendly": true
 }
