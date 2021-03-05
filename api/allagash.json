@@ -1,11 +1,20 @@
 {
     "id": "allagash",
-    "name": "Allagash Brewery",
-    "address": "XXX",
-    "lat": 4,
-    "long": 7,
-    "phone number": "xxxx",
-    "hours": "xxxx",
+    "name": "Allagash Brewing Company",
+    "address": "50 Industrial Way, Portland, ME 04103",
+    "website": "https://www.allagash.com/",
+    "lat": 43.7030958,
+    "long": -70.3178459,
+    "phone number": "(207) 878-5385",
+    "hours": {
+        "Sunday": "11AM–6:30PM",
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "11AM–6:30PM",
+        "Thursday": "11AM–6:30PM",
+        "Friday": "11AM–6:30PM",
+        "Saturday": "11AM–6:30PM"
+    },
     "notes": [
         "I love Allagash Wite!",
         "Too mainstream. They're definitely a national beer distributor rather than catering to the local scene."

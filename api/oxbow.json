@@ -1,13 +1,23 @@
 {
     "id": "oxbow",
-    "name": "Oxbow Brewery",
-    "address": "XXX",
-    "lat": 4,
-    "long": 7,
-    "phone number": "xxxx",
-    "hours": "xxxx",
+    "name": "Oxbow Blending & Bottling",
+    "address": "49 Washington Ave, Portland, ME 04101",
+    "website": "https://oxbowbeer.com/location/portland/",
+    "lat": 43.664967,
+    "long": -70.251183,
+    "phone number": "(207) 350-0025",
+    "hours": {
+        "Sunday": "12-9PM",
+        "Monday": "12-9PM",
+        "Tuesday": "1-8PM",
+        "Wednesday": "1-8PM",
+        "Thursday": "1-8PM",
+        "Friday": "1-8PM",
+        "Saturday": "1-8PM"
+    },
     "notes": [
-        "Sort of pretentious"
+        "Sort of pretentious.",
+        "Really unique vibes and interesting beers!"
     ],
     "beers": [
         "Farmhouse Ale",

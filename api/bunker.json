@@ -1,11 +1,20 @@
 {
-    "id": "bissel-brothers",
-    "name": "Bunker Brewery",
-    "address": "XXX",
-    "lat": 4,
-    "long": 7,
-    "phone number": "xxxx",
-    "hours": "xxxx",
+    "id": "bunker",
+    "name": "Bunker Brewing Co",
+    "address": "17 Westfield St D, Portland, ME 04102",
+    "website": "http://bunkerbrewingco.com/",
+    "lat": 	43.6525826,
+    "long": -70.2838257,
+    "phone number": "(207) 613-9471",
+    "hours": {
+        "Sunday": "12-6PM",
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "2-6PM",
+        "Thursday": "2-6PM",
+        "Friday": "12-6PM",
+        "Saturday": "12AM-6PM"
+    },
     "notes": [
         "Their toilettes are very clean :)",
         "Grungy and awesome!",

@@ -1,11 +1,20 @@
 {
     "id": "battery-steel",
-    "name": "Battery Steel Brewery",
-    "address": "XXX",
-    "lat": 4,
-    "long": 7,
-    "phone number": "xxxx",
-    "hours": "xxxx",
+    "name": "Battery Steel Brewing",
+    "address": "1 Industrial Way UNIT 12, Portland, ME 04103",
+    "website": "https://www.batterysteele.com/",
+    "lat": 43.7029012,
+    "long": -70.3199941,
+    "phone number": "",
+    "hours": {
+        "Sunday": "12-5PM",
+        "Monday": "1-6PM",
+        "Tuesday": "12-7PM",
+        "Wednesday": "12-7PM",
+        "Thursday": "12-7PM",
+        "Friday": "12-7PM",
+        "Saturday": "12-7PM"
+    },
     "notes": [
         "They don't change out their beers very often, it would be nice to have some different beers to try sometimes.",
         "All of their beers are high percentage."

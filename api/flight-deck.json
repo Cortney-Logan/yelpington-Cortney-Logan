@@ -1,11 +1,20 @@
 {
-    "id": "bissel-brothers",
-    "name": "Flight Deck Brewery",
-    "address": "XXX",
-    "lat": 4,
-    "long": 7,
-    "phone number": "xxxx",
-    "hours": "xxxx",
+    "id": "flight-deck",
+    "name": "Flight Deck Brewing",
+    "address": "11 Atlantic Ave, Brunswick, ME 04011",
+    "website": "https://www.flightdeckbrewing.com/",
+    "lat": 43.89915165,
+    "long": -69.92741262792339,
+    "phone number": "(207) 504-5133",
+    "hours": {
+        "Sunday": "12-7PM",
+        "Monday": "3-8PM",
+        "Tuesday": "3-8PM",
+        "Wednesday": "3-8PM",
+        "Thursday": "12-9PM",
+        "Friday": "12-9PM",
+        "Saturday": "12-9PM"
+    },
     "notes": [
         "Absolutely amazing beers and great environment!",
         "Love the flight theme!",

@@ -1,11 +1,20 @@
 {
     "id": "lone-pine",
-    "name": "Lone Pine Brewery",
-    "address": "XXX",
-    "lat": 4,
-    "long": 7,
-    "phone number": "xxxx",
-    "hours": "xxxx",
+    "name": "Lone Pine Brewing Company",
+    "address": "219 Anderson St, Portland, ME 04101",
+    "website": "https://lonepinebrewery.com/",
+    "lat": 43.6703981,
+    "long": -70.2559643,
+    "phone number": "(207) 536-4952",
+    "hours": {
+        "Sunday": "12-8PM",
+        "Monday": "12-8PM",
+        "Tuesday": "12-8PM",
+        "Wednesday": "12-8PM",
+        "Thursday": "12-8PM",
+        "Friday": "12-9PM",
+        "Saturday": "12-9PM"
+    },
     "notes": [
         "All their beers taste the same",
         "Super cute tasting room, and great location!"

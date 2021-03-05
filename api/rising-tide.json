@@ -1,11 +1,20 @@
 {
     "id": "rising-tide",
-    "name": "Rising Tide",
+    "name": "Rising Tide Brewing Company",
     "address": "103 Fox St, Portland, ME 04101",
+    "website": "https://risingtidebrewing.com/",
     "lat": 43.665513,
     "long": -70.2572199,
     "phone number": "(207) 370-2337",
-    "hours": "12-8PM",
+    "hours": {
+        "Sunday": "12-5PM",
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "2-8PM",
+        "Thursday": "2-8PM",
+        "Friday": "Closed",
+        "Saturday": "12-8PM"
+    },
     "notes": [
         "Best beer in Portland.",
         "Every new beer is a good beer.",
