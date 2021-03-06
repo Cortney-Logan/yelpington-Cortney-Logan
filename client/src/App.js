@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div id="page-container">
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />

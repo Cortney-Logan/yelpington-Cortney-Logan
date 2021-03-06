@@ -57,8 +57,8 @@ function Brewery(props) {
               <Popup>{name}</Popup>
             </Marker>
             <TileLayer
-              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-              attribution="Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+              url='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png'
+              attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
             />
           </MapContainer>
         </div>
@@ -77,7 +77,6 @@ function Brewery(props) {
           </div>
           <div>
             <h3>Location:</h3>
-
             <p>{address}</p>
             <p>{phone}</p>
           </div>

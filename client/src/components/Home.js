@@ -19,6 +19,12 @@ function Home(props) {
     }
   });
 
+  // useEffect(()=>{
+  //   if(!markerObject){
+  //     fetch('/api/all').then(console.log('retrieved'))
+  //   }
+  // })
+
   //need to generate this object
   let markerObjectTest = {
     "rising-tide": {"coord": [43.665513, -70.2572199], "name": "Rising Tide"},
@@ -67,13 +73,13 @@ function Home(props) {
       </nav>
       <div id="homepage-map-container">
         <MapContainer
-          center={[43.6591, -70.2568]}
-          zoom={13}
+          center={[43.68, -70.30]}
+          zoom={12}
           style={{ height: "600px", width: "600px" }}
         >
           <TileLayer
-            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-            attribution="Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+            url='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png'
+            attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
           />
           {breweries.map((brewery, index) => {
             return (
