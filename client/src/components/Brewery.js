@@ -51,7 +51,6 @@ function Brewery(props) {
       <a href={website}>
         <h1>{name}</h1>
       </a>
-
       {/* information container to hold all details about brewery */}
       <div id="information-container">
         {/* map centered on brewery with marker at brewery's lat, long */}
@@ -96,7 +95,6 @@ function Brewery(props) {
           </div>
         </div>
       </div>
-
       {/* additional details about brewery */}
       <div id="additional-information">
         <p>
@@ -109,10 +107,18 @@ function Brewery(props) {
           <b>Beers:</b> {beer && beer.map((item) => <span>{item} </span>)}
         </p>
       </div>
-
       {/* comments container */}
       <div id="comments-container">
         <h3>Comments:</h3>
+        <div id="add-a-comment-container">
+          <form id="add-a-comment" method="POST" action='/comment'>
+            <label for="body">Add a comment:</label>
+            <br />
+            <textarea id="textarea" name="body"></textarea>
+            <br />
+            <input id="submit-button" type="submit" />
+          </form>
+        </div>
         {comments && comments.map((comment) => <p>"{comment}"</p>)}
       </div>
     </div>

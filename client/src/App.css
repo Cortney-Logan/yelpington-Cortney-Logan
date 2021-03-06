@@ -189,14 +189,30 @@ header p {
   margin: 0;
 }
 
-marker {
-  color: grey;
+/* Comments */
+textarea{
+  width: 35vw;
 }
+
+
 /*-------------------- 404 Page --------------------*/
 #not-found-container{
   text-align:center;
   margin: 10vh;
 }
+
+#submit-button{
+  background-color:#1e434c;
+  color: white;
+  border-radius: 10%;
+}
+
+#submit-button:hover{
+  background-color: #c99e10;
+  color: black;
+  cursor: pointer;
+}
+
 
 /*-------------------- Footer --------------------*/
 #footer {

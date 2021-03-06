@@ -20,6 +20,10 @@ app.get("/api/:restaurant", (req, res) => {
   res.sendFile(path.resolve(`./api/${req.params.restaurant}.json`));
 });
 
+app.post("/comment",express.urlencoded({ extended: false}),(req,res)=>{
+  console.log(req.body)
+})
+
 //receives get request from home page to collect all brewery data for aggregation
 app.get("/collect", (req, res) => {
   //sets allBreweryData variable to store JSON object from allBreweries
