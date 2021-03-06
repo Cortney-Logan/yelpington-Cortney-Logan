@@ -1,3 +1,11 @@
-function NotFound(props){
-    return(<div>This page is tapped out and not available - head home</div>)
-}export default NotFound;
+import beerPic from "./images/cheers.svg";
+
+function NotFound(props) {
+  return (
+    <div id="not-found-container">
+        <img src={beerPic} alt="two beers clinking"></img>
+      <h3>We're sorry, this page is tapped out and not available</h3>
+    </div>
+  );
+}
+export default NotFound;

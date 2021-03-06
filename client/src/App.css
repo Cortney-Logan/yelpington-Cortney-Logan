@@ -5,6 +5,22 @@ Forest #1E434C
 Rust #9B4F0F
 Gold #C99E10 */
 
+/*-------------------- Body --------------------*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -67,6 +83,13 @@ header p {
   align-self: center;
   border: 5px solid #c99e10;
 }
+
+#pop-up-address{
+  font-size: .75rem;
+  margin: 0;
+}
+
+/* Nav Bar */
 
 #nav-bar {
   background-color: #1e434c;
@@ -168,6 +191,11 @@ header p {
 
 marker {
   color: grey;
+}
+/*-------------------- 404 Page --------------------*/
+#not-found-container{
+  text-align:center;
+  margin: 10vh;
 }
 
 /*-------------------- Footer --------------------*/

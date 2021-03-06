@@ -5,7 +5,8 @@ function Footer(props) {
         Icons made by{" "}
         <a href="https://www.freepik.com" title="Freepik">
           Freepik
-        </a>{" "}
+        </a>{" "}and{" "}
+        <a href="https://www.flaticon.com/authors/ddara" title="dDara">dDara</a>{" "}
         from{" "}
         <a href="https://www.flaticon.com/" title="Flaticon">
           www.flaticon.com
@@ -15,3 +16,4 @@ function Footer(props) {
   );
 }
 export default Footer;
+
