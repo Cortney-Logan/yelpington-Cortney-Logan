@@ -20,6 +20,26 @@ app.get("/api/:restaurant", (req, res) => {
   res.sendFile(path.resolve(`./api/${req.params.restaurant}.json`));
 });
 
+//receives get request from home page to collect all brewery data for aggregation
+app.get("/collect", (req, res) => {
+  //sets allBreweryData variable to store JSON object from allBreweries
+  let allBreweryData = allBreweries();
+  //turns set of brewery data into a string to be sent to home page
+  let breweryData = JSON.stringify(allBreweryData);
+  //sends response of brewery data as string to home page
+  res.type("text/json").send(breweryData);
+});
+
+//catch all
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve("./client/public/index.html"));
+});
+
+//starts port and keeps it open
+app.listen(port, () => {
+  console.log("listening on port", port);
+});
+
 //supporting functions
 //compiles contents of all brewery files into a single object
 function allBreweries() {
@@ -35,20 +55,3 @@ function allBreweries() {
       )
   );
 }
-
-app.get('/collect', (req, res) => {
-  let allBreweryData = allBreweries();
-  let breweryData = JSON.stringify(allBreweryData);
-  res.type("text/json").send(breweryData);
-});
-
-//catch all
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve("./client/public/index.html"));
-});
-
-//starts port and keeps it open
-app.listen(port, () => {
-  console.log("listening on port", port);
-});
-
