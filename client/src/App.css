@@ -132,6 +132,7 @@ header p {
   margin: 0 30vw;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10vh;
 }
 
 #brewery-container a:link {
