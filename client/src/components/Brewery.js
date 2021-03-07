@@ -77,9 +77,9 @@ function Brewery(props) {
           <div>
             <h3>Hours:</h3>
             <ul id="hours">
-              {days.map((day) => {
+              {days.map((day,index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <b>{day}</b>: {hours[day]}
                   </li>
                 );
@@ -104,22 +104,22 @@ function Brewery(props) {
           <b>Dog Friendly:</b> {dogFriendly ? "Yes" : "No"}
         </p>
         <p>
-          <b>Beers:</b> {beer && beer.map((item) => <span>{item} </span>)}
+          <b>Beers:</b> {beer && beer.map((item,index) => <span key={index}>{item} </span>)}
         </p>
       </div>
       {/* comments container */}
       <div id="comments-container">
         <h3>Comments:</h3>
         <div id="add-a-comment-container">
-          <form id="add-a-comment" method="POST" action='/comment'>
-            <label for="body">Add a comment:</label>
+          <form id="add-a-comment" method="POST" action={`/comment/${brewery}`}>
+            <label>Add a comment:</label>
             <br />
             <textarea id="textarea" name="body"></textarea>
             <br />
             <input id="submit-button" type="submit" />
           </form>
         </div>
-        {comments && comments.map((comment) => <p>"{comment}"</p>)}
+        {comments && comments.map((comment,index) => <p key={index}>"{comment}"</p>)}
       </div>
     </div>
   );
