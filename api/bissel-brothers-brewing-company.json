@@ -1,6 +1,6 @@
 {
-    "id": "bissel-brothers",
-    "name": "Battery Steel Brewing Company",
+    "id": "bissel-brothers-brewing-company",
+    "name": "Bissel Brothers Brewing Company",
     "address": "38 Resurgam Pl, Portland, ME 04102",
     "website": "https://bissellbrothers.com/",
     "lat": 43.6515,
@@ -18,7 +18,8 @@
     "comments": [
         "Bissel Brothers is the best beer in Maine!",
         "Overhyped - they're trying too hard to be Tree House while their beer needs a lot more work.",
-        "Substance is literally the best thing I've ever had!"
+        "Substance is literally the best thing I've ever had!",
+        "I like beer"
     ],
     "beers": [
         "IPA",

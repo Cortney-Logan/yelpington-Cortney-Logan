@@ -20,16 +20,17 @@ app.get("/api/:restaurant", (req, res) => {
   res.sendFile(path.resolve(`./api/${req.params.restaurant}.json`));
 });
 
+//receives request from comment form submission
 app.post(
   "/comment/:restaurant",
+  //allows server to read body of form
   express.urlencoded({ extended: false }),
   (req, res) => {
+    //stores comment and brewery id
     let newComment = req.body;
     let breweryId = req.params.restaurant;
-    console.log("body is", newComment);
-    console.log("brewery is", breweryId);
-    addComment(newComment, breweryId, res); //working on now
-    res.redirect(`../brewery/${breweryId}`);
+    //calls addComment function to add comment to correct json file
+    addComment(newComment, breweryId, res);
   }
 );
 
@@ -69,23 +70,16 @@ function allBreweries() {
   );
 }
 
+//adds an additional comment to an existing file
 function addComment(newComment, breweryId, res) {
-  console.log("inside add comment body is", newComment);
-  console.log("inside add comment brewery is", breweryId);
-
-  //pull correct json file into server.js
+  //pull related brewey file and save as currentData
   let currentData = JSON.parse(fs.readFileSync(`./api/${breweryId}.json`));
-  console.log(currentData);
 
+  //adds new comment to existing comment value in current Data
   currentData.comments.push(newComment.body);
-
-  console.log(`updatedData is `, currentData);
 
   //update comment section to include new comment
   fs.writeFileSync(`./api/${breweryId}.json`, JSON.stringify(currentData));
   //reload page
-
-  //https://stackoverflow.com/questions/36093042/how-do-i-add-to-an-existing-json-file-in-node-js#:~:text=If%20you%20want%20the%20file,string%20and%20save%20it%20again.&text=In%20general%2C%20If%20you%20want,appendFile(%22results.
-  //https://egghead.io/lessons/node-js-write-or-append-to-a-file-in-node-js-with-fs-writefile-and-fs-writefilesync
-  //https://stackoverflow.com/questions/54429169/adding-dynamically-to-a-json-file
+  res.redirect(`../brewery/${breweryId}`);
 }
