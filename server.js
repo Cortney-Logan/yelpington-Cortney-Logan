@@ -7,8 +7,8 @@ const app = express();
 //declares port variable and sets to 5000 as default
 const port = process.env.PORT || 5000;
 
-//limits scope to client/public folder
-app.use(express.static("./client/public"));
+//limits scope to client/build folder
+app.use(express.static("./client/build"));
 
 //allows users to visit the route /api and see all available restaurant IDs in JSON format
 app.get("/api", (req, res) => {
@@ -46,7 +46,7 @@ app.get("/collect", (req, res) => {
 
 //catch all
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve("./client/public/index.html"));
+  res.sendFile(path.resolve("./client/build/index.html"));
 });
 
 //starts port and keeps it open
